@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  height: 100%;
+}
+
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: sans-serif;
+  font-display: swap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #111927;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+}

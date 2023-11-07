@@ -1,0 +1,111 @@
+.wrapper {
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #222;
+    flex-basis: 400px;
+    height: 700px;
+    width: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(6px) saturate(22%);
+    -webkit-backdrop-filter: blur(6px) saturate(22%);
+    background-color: rgba(17, 25, 40, 0.65);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-top: 6rem;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    padding: 20px 35px;
+
+}
+
+
+button {
+    width: 1em;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: .2rem;
+    margin: .3rem;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#screen {
+    padding: 1.2rem;
+    background-color: #fff;
+    border-radius: .2rem;
+    text-align: right;
+    overflow: auto;
+    margin-top: 3rem;
+    width: 100%;
+    font-size: 35px;
+    margin: 2rem auto;
+}
+
+.calc-btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-btn {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur((5.5px));
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(122, 25, 25, 0.1);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #222;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 2rem;
+    height: 65px;
+    opacity: 1;
+}
+
+.calc-btn:last-child,
+.gray {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur((5.5px));
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #fff;
+    background: #848584;
+    transition: .4s;
+}
+
+.calc-btn:last-child:hover,
+.gray:hover {
+    transition: .4s;
+    background-color: inherit;
+}
+
+
+.calc-btn:hover {
+    transition: .4s;
+    background-color: inherit;
+    color: #fff;
+}
+
+.calc-btn:active,
+.calc-btn:last-child:active {
+    background-color: #dfded9;
+}
+
+.double {
+    flex-basis: 47%;
+}
+
+#green {
+    background-color: #56fc56;
+    color: #222;
+}
+
+#green:hover {
+    background-color: #1d411d;
+    color: #fff;
+}
